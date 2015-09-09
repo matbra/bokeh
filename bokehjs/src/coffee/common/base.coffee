@@ -108,6 +108,7 @@ locations =
   YearsTicker:              require '../ticking/years_ticker'
 
   BasicTickFormatter:       require '../ticking/basic_tick_formatter'
+  StringTickFormatter:      require '../ticking/string_tick_formatter'
   LogTickFormatter:         require '../ticking/log_tick_formatter'
   CategoricalTickFormatter: require '../ticking/categorical_tick_formatter'
   DatetimeTickFormatter:    require '../ticking/datetime_tick_formatter'

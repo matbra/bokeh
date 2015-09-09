@@ -44,6 +44,16 @@ class BasicTickFormatter(TickFormatter):
         log(x) <= power_limit_low
 
     """)
+    
+class StringTickFormatter(TickFormatter):
+    """ Display tick values from a list of strings passed with the
+    'labels' keyword argument.
+
+    """
+    labels = List(String, help="""
+    A list of strings, having the same number of elements as there are ticks
+    in the axis.
+    """)
 
 class NumeralTickFormatter(TickFormatter):
     """ Tick formatter based on a human-readable format string. """
